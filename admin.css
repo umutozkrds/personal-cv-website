@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Elements Generally */
+html {
+  height: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+
+body {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*  */
+section#content {
+  width: 100%;
+}
+
+div#sidebar {
+  background-color: #00220E;
+  height: auto;
+  width: 300px;
+  padding: 2rem 3rem;
+
+}
+
+.random{
+  width: 120px;
+}
+
+img{
+  width: 220px;
+  height: 240px;
+}
+div#sidebar ul {
+  list-style: none;
+}
+
+div#sidebar ul li.category-name {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-top: 1rem;
+}
+.yasla{
+float: right;
+
+}
+.info{
+  font-family: arial, verdana;
+  list-style: none;
+  padding-left: 20px;
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+  border-bottom: 1px solid black;
+  padding-top: 1rem;
+
+}
+.icerik{
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+}
+.bilgi{
+  color: white;
+  margin-top: 10px;
+  
+}
+
+div#sidebar ul li {
+  padding: 1rem 0;
+  color: white;
+}
+
+nav {
+  display: flex;
+  
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+}
+#github{
+  margin-right: 10px;
+  background-color: black;
+  color: aliceblue;
+  
+  
+}
+#github:hover{
+  background-color: #9081c6;
+  color: #342c3c;
+  transition-timing-function: ease-in-out;
+  
+}
+#linkedn{
+  background-color: #091e31;
+  color:#1d99f2;
+}
+
+
+#linkedn:hover{
+  background-color: rgb(28,116,196);
+  color: white;
+  transition-timing-function: ease-in-out;
+}
+
+nav div#profile button {
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+
+
+div#profile{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+div#actions {
+  display: none;
+  position: absolute;
+}
+
+/* section {
+  
+} */
+
+footer {
+  background-color: lightgray;
+  padding: 1rem 2rem;
+}
